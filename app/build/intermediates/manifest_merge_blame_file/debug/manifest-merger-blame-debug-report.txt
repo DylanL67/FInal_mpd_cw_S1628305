@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3//
+4// Name: Dylan Lewis
+5//Student ID: S1628305
+6-->
+7<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+8    package="com.gcu.mpd.mpd_cw_s1628305"
+9    android:versionCode="1"
+10    android:versionName="1.0" >
+11
+12    <uses-sdk
+13        android:minSdkVersion="23"
+13-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml
+14        android:targetSdkVersion="29" />
+14-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml
+15
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:14:5-79
+16-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:14:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:15:5-67
+17-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:15:22-64
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:19:5-55:19
+27        android:allowBackup="true"
+27-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:20:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\032360533aed7f4773dde0d69318c0bd\core-1.0.1\AndroidManifest.xml:22:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:21:9-43
+32        android:label="@string/app_name"
+32-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:22:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:23:9-54
+34        android:supportsRtl="true"
+34-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:24:9-35
+35        android:theme="@style/AppTheme" >
+35-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:25:9-40
+36
+37        <!--
+38             The API key for Google Maps-based APIs is defined as a string resource.
+39             (See the file "res/values/google_maps_api.xml").
+40             Note that the API key is linked to the encryption key used to sign the APK.
+41             You need a different API key for each encryption key, including the release key that is used to
+42             sign the APK for publishing.
+43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+44        -->
+45        <meta-data
+45-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:35:9-37:71
+46            android:name="com.google.android.geo.API_KEY"
+46-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:36:13-58
+47            android:value="AIzaSyCIe683bH63j4MVVVSSr_W8eahvLijyHkI" />
+47-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:37:13-68
+48
+49        <activity
+49-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:40:9-43:20
+50            android:name="com.gcu.mpd.mpd_cw_s1628305.MapsActivity"
+50-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:41:13-41
+51            android:label="@string/title_activity_maps" >
+51-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:42:13-56
+52        </activity>
+53        <activity android:name="com.gcu.mpd.mpd_cw_s1628305.MainActivity" >
+53-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:45:9-51:20
+53-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:45:19-47
+54            <intent-filter>
+54-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:46:13-50:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:47:17-69
+55-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:47:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:49:17-77
+57-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:49:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.gcu.mpd.mpd_cw_s1628305.RSSFeedActivity" />
+60-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:52:9-53
+60-->C:\Desktop\Dylan\mpd_cw_S1628305\app\src\main\AndroidManifest.xml:52:19-50
+61
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\8a679882cc89a6a4e438fc0ab5da4674\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\d9ca5871b06263178e8af76d16a55757\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\d9ca5871b06263178e8af76d16a55757\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\d9ca5871b06263178e8af76d16a55757\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\d9ca5871b06263178e8af76d16a55757\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\b99cbfd752d956662905751ba1b572cb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\b99cbfd752d956662905751ba1b572cb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Mikey\.gradle\caches\transforms-2\files-2.1\b99cbfd752d956662905751ba1b572cb\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
